@@ -1,2 +1,2 @@
-#!/vin/bash
+#!/bin/bash
 gcc -c $CFILE.c -o $CFILE.o
