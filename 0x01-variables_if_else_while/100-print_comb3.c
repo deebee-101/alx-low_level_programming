@@ -7,13 +7,14 @@
  * Return: Always 0 (Success)
  */
 
-int main() 
+int main(void)
 {
 	int index = 0;
 
 	while (index < 10)
-        {
-		int india = index +1;
+	{
+		int india = index + 1;
+
 		while (india  < 10)
 		{
 			putchar(index + '0');
@@ -28,5 +29,5 @@ int main()
 		index++;
 	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
