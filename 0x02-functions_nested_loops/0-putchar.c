@@ -1,11 +1,13 @@
 #include "main.h"
 
 /**
- * use putchar
+ * main - use putchar
+ *
+ *Description: 'function'
  *
  * Return: On success 0
  */
-int main (void)
+int main(void)
 {
 	char to_print[8] = "_putchar";
 	int index = 0;
