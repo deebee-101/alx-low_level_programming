@@ -9,7 +9,7 @@
 
 void print_alphabet(void)
 {
-	//prints alphabets
+	/*prints alphabets*/
 	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
 	int index = 0;
 
