@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - enter
+ * print_alphabet_x10 - enter
  *
  * Desription: 'print 10 alpha'
  *
