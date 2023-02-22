@@ -3,7 +3,7 @@
 
 /**
  * _islower - find lower
- * @c - input parameter
+ * @c: input parameter
  *
  * Description: 'is it lower'
  *
