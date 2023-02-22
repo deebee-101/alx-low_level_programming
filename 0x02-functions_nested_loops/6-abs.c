@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /**
- * int _abs - absolutely
+ * _abs - absolutely
  * @n: input parameter
  *
  * Description: 'print absolutes'
@@ -13,6 +13,7 @@
 int _abs(int n)
 {
 	int absolutely = abs(n);
+
 	return (absolutely);
 }
 
