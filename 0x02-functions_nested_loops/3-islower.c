@@ -2,7 +2,8 @@
 #include <ctype.h>
 
 /**
- * _islower - find lowe
+ * _islower - find lower
+ * @c - input parameter
  *
  * Description: 'is it lower'
  *
