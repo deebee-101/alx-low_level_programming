@@ -2,7 +2,7 @@
 /**
  * add - add them up
  *
- * @a: variable 
+ * @a: variable
  * @b: variables
  *
  * Description: 'adds'
