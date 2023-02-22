@@ -13,8 +13,7 @@
 int _abs(int n)
 {
 	int absolutely = abs(n);
-	_putchar (absolutely + '0');
-	return (0);
+	return (absolutely);
 }
 
 
