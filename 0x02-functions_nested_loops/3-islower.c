@@ -2,11 +2,11 @@
 #include <ctype.h>
 
 /**
- * int _islower(int c
+ * _islower - find lowe
  *
  * Description: 'is it lower'
  *
- * Return: 1 if lower o if not
+ * Return: 1 if lower 0 if not
  */
 
 int _islower(int c)
