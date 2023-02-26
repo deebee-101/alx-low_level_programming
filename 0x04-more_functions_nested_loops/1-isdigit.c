@@ -2,16 +2,16 @@
 #include "main.h"
 
 /**
- * int _isupper - upper
- * @c: variable
+ * int _isdigit - digit
+ * @c: parameter
+ * Description: 'digit'
  *
- * Description: 'upper'
  * Return: 1 or 0
  */
 
-int _isupper(int c)
+int _isdigit(int c)
 {
-	if (isupper(c))
+	if (isdigit(c))
 	{
 		return (1);
 	}
