@@ -14,7 +14,7 @@ void puts_half(char *str)
 {
 	int k = strlen(str);
 	int j = k / 2;
-	int n = (k - 1) / 2;
+	int n = ((k - 1) / 2) + 1;
 
 	if (k % 2 == 0)
 	{
