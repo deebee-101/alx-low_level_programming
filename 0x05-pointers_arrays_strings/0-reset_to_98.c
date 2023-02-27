@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * void reset_to_98 - resets
- * @*n: variable
+ * reset_to_98 - resets
+ * @n: variable
  *
  * Description: 'resets'
  *
