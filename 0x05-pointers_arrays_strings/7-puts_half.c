@@ -18,17 +18,18 @@ void puts_half(char *str)
 
 	if (k % 2 == 0)
 	{
-		while (str[j] != '\0') 
+		while (str[j] != '\0')
 		{
 			_putchar(str[j]);
 			j++;
 		}
 	}
-	else 
+	else
 	{
 		while  (str[n] != '\0')
 		{
 			_putchar(str[n]);
+			n++;
 		}
 	}
 	_putchar('\n');
