@@ -3,7 +3,7 @@
 
 /**
  * print_rev - reverse
- * @s - parameter
+ * @s: parameter
  *
  * Description: 'reverse'
  *
