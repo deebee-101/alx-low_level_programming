@@ -1,0 +1,27 @@
+#include "main.h"
+
+/**
+ * print_array - array
+ * @a: array
+ * @n: parameter
+ *
+ * Description: 'print array'
+ *
+ * Return: nada
+ */
+
+void print_array(int *a, int n)
+{
+	int i;
+
+	for (i = 0; i < n; i++)
+	{
+		if (i < 4)
+		{
+			printf("%d, ", a[i]);
+		}
+		else
+			printf("%d", a[i]);
+	}
+	printf("\n");
+}
