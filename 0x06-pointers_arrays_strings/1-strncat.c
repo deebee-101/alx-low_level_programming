@@ -15,6 +15,7 @@
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = strlen(dest);
+	int j = strlen(src);
 	int k = 0;
 	char tempo;
 
@@ -24,6 +25,10 @@ char *_strncat(char *dest, char *src, int n)
 		dest[i] = tempo;
 		i++;
 		k++;
+	}
+	if (n < j)
+	{
+		dest[i] = '\0';
 	}
 	return (dest);
 
