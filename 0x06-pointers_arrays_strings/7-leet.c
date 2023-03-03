@@ -19,6 +19,7 @@ char *leet(char *s)
 	while (s[i] != '\0')
 	{
 		int j = 0;
+
 		while (alpha[j] != '\0')
 		{
 			if (toupper(alpha[j]) == toupper(s[i]))
