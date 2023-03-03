@@ -14,8 +14,8 @@
 char *cap_string(char *s)
 {
 	int i = 0;
-	char spec[] = ",; !?\"(){}\t\n";
-	int n = strlen(spec);
+	char spec[] = ",;. !?\"(){}\t\n";
+	int n = strlen(s);
 
 	while (i < n)
 	{
