@@ -19,11 +19,15 @@ char *cap_string(char *s)
 
 	while (i < n)
 	{
-		if (strchr(spec, s[i]))
+		if ((i == 0) && (isalpha(s[i])))
+		{
+			s[i] = toupper(s[i]);
+		}
+		else if (strchr(spec, s[i]))
 		{
 			if (isalpha(s[i + 1]))
 			{
-				s[i + 1] = toupper(s[i+1]);
+				s[i + 1] = toupper(s[i + 1]);
 			}
 		}
 		i++;
