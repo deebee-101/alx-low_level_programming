@@ -3,7 +3,7 @@
 /**
  * *_memcpy - copy mem
  * @dest: destination
- * @srs: source
+ * @src: source
  * @n: integer
  *
  * Description: 'copy memory'
